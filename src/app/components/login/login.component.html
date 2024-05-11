@@ -1,0 +1,32 @@
+@if (isLoggedIn) {
+<p>Hola, {{username}}</p>
+
+} @else {
+<div id="loginoff" class="menu-login">
+    <div class="form-login">
+        <form>
+            <div class="llenar">
+                <div class="formemail">
+                    <h1>Correo</h1>
+                    <input matInput type="email" placeholder="">
+                </div>
+                <div class="formpassw">
+                    <h1>Contraseña</h1>
+                    <input matInput type="password" placeholder="">
+                </div>
+            </div>
+            <div class="buttonmenulogin">
+                <button mat-flat-button color="primary" class="login">
+                    <span class="unetenostexto">Iniciar Sesión</span>
+                </button>
+                <button mat-stroked-button color="accent" class="register" routerLink="/register">
+                    <span class="unetenostexto">Regístrate</span>
+                </button>
+                <div class="forgotpsw">
+                    <a href="">¿Olvidaste tu contraseña?</a>
+                </div>
+            </div>
+        </form>
+    </div>
+</div>
+}

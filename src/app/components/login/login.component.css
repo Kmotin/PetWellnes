@@ -1,0 +1,79 @@
+.menu-login {
+  border-radius: 20px;
+  border-color: white;
+  background-color: white;
+  width: 350px;
+  height: 400px;
+}
+
+.llenar {
+  font-size: 20;
+  text-align: center;
+}
+
+.llenar h1 {
+  font-weight: 500;
+  margin-left: 18%;
+  text-align: start;
+}
+
+.llenar input {
+  margin: 10;
+  width: 270px;
+  height: 30px;
+  font-size: 20px;
+}
+
+.buttonmenulogin {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  width: 270px;
+  height: 30px;
+  margin-left: 10%;
+}
+
+.login {
+  background-color: #ed117f;
+  color: white;
+  border-radius: 50px;
+  border: none;
+  font-size: 32px;
+  padding: 10px 20px;
+  transition: background-color 0.3s;
+  cursor: pointer;
+  text-align: center;
+  font-weight: bold;
+}
+
+.register {
+  background-color: #3db6b1;
+  color: white;
+  border-radius: 50px;
+  border: none;
+  font-size: 32px;
+  padding: 10px 20px;
+  transition: background-color 0.3s;
+  cursor: pointer;
+  text-align: center;
+  font-weight: bold;
+  margin-top: 15px;
+}
+
+div.forgotpsw {
+  margin: 10px;
+  text-align: center;
+}
+
+div.forgotpsw a {
+  color: black !important;
+  font-size: 15px;
+}
+
+#loginoff {
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1050;
+}
